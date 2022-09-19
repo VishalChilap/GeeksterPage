@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.content {
+    margin-left: 200px;
+}
+
+.content a{
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover{
+    color: green;
+}
+
+.content a select{
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.content a select option:hover{
+    columns: green;
+}
+
+.navbar .but{
+    margin-left: 250px;
+}
+
+.navbar .but button {
+    background-color: #29b475;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.navbar .but button:hover {
+    background-color: green;
+}
+
+.main-body .image{
+    background-image: url('https://geekster.in/images/hero.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body{
+    padding-top: 80px;
+}
+
+.main-body .heading{
+    padding: 80px 60px;
+    width: 570px;
+}
+
+.main-body .heading p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.heading p span{
+    color: #29b475;
+}
+
+.main-body .para{
+    padding: 0px 60px;
+    width: 350px;
+}
+
+.para p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #737c81;
+}
+
+.para p span{
+    font-size: 26px;
+    font-weight: 700;
+    color: #737c81;
+}
+
+.main-body .but{
+    padding: 80px 50px;
+}
+
+.main-body .but{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-body .but .apply{
+    padding: 20px 30px;
+    background-color: #29b475;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-body .but .apply:hover{
+    background-color: green;
+}
+
+.app{
+    font-size: 40px;
+    background-color: #29b475;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+}
+.app:hover{
+    background-color: green;
+}
